@@ -1,0 +1,44 @@
+$font-primary: 'Concert One';
+$font-secondary: 'Noto Sans';
+$bold: 700;
+$regular: 400;
+$light: 300;
+
+$font-l: 7.5rem;
+$font-m: 3.8rem;
+$font-ms: 2.8rem;
+$font-s: 1.8rem;
+
+.heading-primary {
+	color: var(--white);
+	&--main {
+		font-family: $font-primary, helvetica, arial, sans-serif;
+		font-weight: $regular;
+		font-size: $font-l;
+	}
+	&--sub {
+		font-family: $font-secondary, helvetica, arial, sans-serif;
+		font-weight: $regular;
+		font-size: $font-m;
+	}
+}
+
+.heading-secondary {
+	color: var(--black);
+	&--main {
+		font-family: $font-secondary, helvetica, arial, sans-serif;
+		font-weight: $bold;
+		font-size: $font-m;
+	}
+	&--sub {
+		font-family: $font-secondary, helvetica, arial, sans-serif;
+		font-weight: $regular;
+	}
+}
+
+.paragraph {
+	color: var(--black);
+	font-family: $font-secondary, helvetica, arial, sans-serif;
+	font-weight: $regular;
+	font-size: $font-s;
+}
