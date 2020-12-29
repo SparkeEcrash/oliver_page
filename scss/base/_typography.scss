@@ -1,4 +1,4 @@
-$font-primary: 'Concert One';
+$font-primary: 'Balsamiq Sans';
 $font-secondary: 'Noto Sans';
 $bold: 700;
 $regular: 400;
@@ -17,7 +17,7 @@ $font-s: 1.8rem;
 		font-size: $font-l;
 	}
 	&--sub {
-		font-family: $font-secondary, helvetica, arial, sans-serif;
+		font-family: $font-primary, helvetica, arial, sans-serif;
 		font-weight: $regular;
 		font-size: $font-m;
 	}
